@@ -1,0 +1,15 @@
+.button {
+    padding: 10px 16px; /* Equivalent to Tailwind's px-4 py-2 */
+    /* background-color: #007bff; Blue background */
+    color: white; /* White text */
+    font-weight: 500; /* Medium font weight */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    margin: 30px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
