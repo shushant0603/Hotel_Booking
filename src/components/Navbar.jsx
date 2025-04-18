@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="navbar w-90% bg-white shadow-sm">
+    <div className="navbar w-[100vw] h-[8vh] bg-white fixed top-0 shadow-sm ">
     <div className="navbar-start m-4 ">
    
       <a className=" text-black text-xl">Hotel Booking</a>
