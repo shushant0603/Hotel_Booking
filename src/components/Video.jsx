@@ -13,7 +13,7 @@ const Video = () => {
       {
         width: '90%', // Final width
         height: '90%',
-        y:15, // Final height
+        y:"3vh", // Final height
         // y: window.innerHeight / 2 - (window.innerHeight * 0.7) / 2, // Center vertically
         duration: 3.5,
         ease: 'linear',

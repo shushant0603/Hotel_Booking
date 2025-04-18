@@ -1,20 +1,18 @@
-import React from 'react';
-import '../stylesheets/Navbar.css';
+import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      {/* Logo Section */}
-      <div className="navbar-logo">
-        Brand
-      </div>
-
-      {/* Button Section */}
-      <button className="navbar-button">
-        Get Started
-      </button>
+    <div className="navbar w-90% bg-white shadow-sm">
+    <div className="navbar-start m-4 ">
+   
+      <a className=" text-black text-xl">Hotel Booking</a>
     </div>
-  );
-};
+  
+    <div className="navbar-end">
+      <a className="btn">Get started</a>
+    </div>
+  </div>
+  )
+}
 
-export default Navbar;
+export default Navbar
